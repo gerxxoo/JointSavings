@@ -43,7 +43,7 @@ To automate the creation of joint savings accounts, you’ll create a Solidity s
 
 6) Define a `public` function named `setAccounts` that takes two `address payable` arguments, named `account1` and `account2`. In the body of the function, set the values of `accountOne` and `accountTwo` to `account1` and `account2`, respectively.
 
-7)Add a fallback function so that your contract can store ether that’s sent from outside the deposit function.
+7) Add a fallback function so that your contract can store ether that’s sent from outside the deposit function.
 
 ## Step 2: Compile and Deploy Your Contract in the JavaScript VM
 1) Compile your smart contract. If an error occurs, review your code, and make the necessary changes for a successful compilation.
